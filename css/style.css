@@ -44,6 +44,9 @@ h2{
     max-height: 300px !important;
 }
 
+.mdi-navigation-menu {
+    margin-left: 10px !important;
+}
 .header.text_b {
     text-align: center;
 }
