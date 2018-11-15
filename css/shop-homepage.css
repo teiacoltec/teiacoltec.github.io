@@ -1,0 +1,29 @@
+.navbar{
+    min-height: 80px;
+    border-bottom:2px solid rgb(179, 179, 179);
+    box-shadow: 3px 2px 10px #cecccc;
+    background-color: white !important;
+}
+
+.nav-link{
+    color: rgb(0,125,184) !important;
+    font-weight: 600;
+}
+
+.pagina {
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+.informacoes{
+    margin-top: 108px;
+    background-color: rgb(230,230,230);
+    padding-top: 20px;
+    border-radius: 10px;
+}
