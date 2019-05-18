@@ -104,7 +104,7 @@
 
                     <div class="menu list-group">
                         <!-- <a style="color: rgb(37, 37, 37);" href="http://accounts.google.com" class="list-group-item list-group-item-action text-left">Entre na Teia</a> -->
-                        <a style="color: rgb(37, 37, 37);" href="http://www.coltec.ufmg.br/coltec-ufmg/?page_id=84" class="list-group-item list-group-item-action text-left">O que é o Coltec</a>
+                        <a style="color: rgb(37, 37, 37);" href="http://www.coltec.ufmg.br/coltec-ufmg/?page_id=84" class="list-group-item list-group-item-action text-left">O que é o Coltec?</a>
                     	
                         <!-- <div class="dropdown">
                         	<button style="background-color: white" class="btn btn-block dropdown-toggle text-left list-group-item list-group-item-action" type="button" id="dropdownMenuButton" data-toggle="dropdown">
@@ -161,7 +161,7 @@
 
                 	</form> -->
                         <div class="text-center">
-                            <div class="btn g-signin2" align="center" data-onsuccess="onSignIn"></div>
+                            <div id="loginGoogleTeiaColtec" class="btn g-signin2" align="center" data-onsuccess="onSignIn"></div>
                         </div>
 
                 </div>
@@ -189,6 +189,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        document.getElementById("loginGoogleTeiaColtec").children[0].children[0].children[1].children[0].innerHTML = "Teste";
+        document.getElementById("loginGoogleTeiaColtec").children[0].children[0].children[1].children[1].innerHTML = "Conectado";
+    </script>
 
 </body>
 
