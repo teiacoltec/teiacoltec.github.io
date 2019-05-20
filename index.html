@@ -155,8 +155,12 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
+        function onSignIn(googleUser) {
+            window.open('https://mail.google.com', '_blank');
+        }
+
         function mudaTexto() {
-            document.getElementById("loginGoogleTeiaColtec").children[0].children[0].children[1].children[0].innerHTML = "TeiaColtec";
+            document.getElementById("loginGoogleTeiaColtec").children[0].children[0].children[1].children[0].innerHTML = "Fazer login";
             document.getElementById("loginGoogleTeiaColtec").children[0].children[0].children[1].children[1].innerHTML = "Conectado";
         }
 
